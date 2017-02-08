@@ -1,0 +1,524 @@
+/* Fonts --------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+/* Main Styles */
+*,html,body {
+margin:0;
+padding:0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h4 {
+  color: #005C58;
+  margin-bottom: 3%;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: #005C58;
+  margin-bottom: 2%;
+}
+
+h5 {
+  color: #005C58;
+  font-size: 3em;
+}
+
+ul {
+  list-style: none;
+}
+/* Header Style --------------------------------*/
+.header {
+  font-family: 'Roboto', sans-serif;
+  background: url("../img/headerbg.png") no-repeat local center top;
+  width: 100%;
+  height: 600px;
+  margin-top: 0;
+  padding: 0;
+}
+
+/* Nav Style --------------------------------*/
+nav {
+  display: flex;
+  width: 100%;
+  align-items: baseline;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  color: white;
+}
+
+nav ul a {
+  text-decoration: none;
+}
+
+/* Container Logo Style ------------------------------------*/
+.container-logo {
+  width: 30%;
+}
+
+.container-logo ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+
+.container-logo ul a {
+  margin-right: 20px;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.phone img{
+  margin-right: 6px;
+}
+
+/* Container Menu Style ---------------------------------------*/
+.container-menu {
+  width: 70%;
+}
+
+.container-menu ul {
+  justify-content: flex-end;
+  text-transform: uppercase;
+  margin-right: 10%;
+  margin-top: 3%;
+}
+
+.container-menu ul a {
+  margin-right: 10px;
+  letter-spacing: 0.1em;
+  font-size: 0.8em;
+  padding: 10px;
+}
+
+.container-menu ul a:hover {
+  background-color: #80A7A4;
+  border: none;
+}
+
+/* Container Header text Style --------------------------------*/
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+  margin-left: 15%;
+  color: white;
+}
+
+.header-text h1 {
+  font-size: 3em;
+  margin-bottom: 0.5%;
+}
+
+.header-text button {
+  width: 170px;
+  height: 50px;
+  background-color: #68AF56;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 2%;
+}
+
+/* Container Feauters Style --------------------------------*/
+.container-features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 7%;
+}
+
+/* Container Features Spec Style -------------------------------*/
+.container-features-spec ul {
+  display: flex;
+  padding: 1%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.container-features-spec ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4%;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.container-features-spec ul li img {
+  margin-bottom: 6%;
+}
+/* Container Skills Style --------------------------------*/
+.container-skills ul {
+  display: flex;
+  margin: 5% 6% 5% 6%;
+}
+
+.container-skills ul li {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+
+.container-skills ul li h4 img {
+  margin-right: 2%;
+}
+
+/* Container Responsive Style --------------------------------*/
+.container-responsive {
+  background: url("../img/Hand.png") no-repeat local center top;
+  width: 100%;
+  height: 665px;
+  margin: auto 0;
+  padding: 5%;
+}
+
+/* Container Responsive Header Style --------------------------------*/
+.container-responsive-header {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #005C58;
+}
+
+.container-responsive-header h2 {
+  font-size: 2em;
+}
+
+/* Container Responsive Content Style --------------------------------*/
+.container-responsive-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 50%;
+  float: right;
+  margin: 10% 0% 0% 0%;
+  color: #005C58;
+}
+
+.container-responsive-content h3 {
+  margin-bottom: 2%;
+  font-size: 2em;
+}
+/* Container Customers Style --------------------------------*/
+.container-customers {
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+
+/* Container Customers Opinion Style --------------------------------*/
+.container-customers-opinion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 4%;
+  letter-spacing: 1px;
+}
+
+.container-customers-opinion h3{
+  font-family: 'Roboto Slab', serif;
+  color: #005C58;
+  margin-bottom: 2%;
+}
+
+.container-customers-opinion p {
+}
+
+/* Container Customers Face Style --------------------------------*/
+.container-customers-face {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 4%;
+}
+/* Container Details Style --------------------------------*/
+.container-details {
+  width: 100%;
+  height: 500px;
+  background-color: #EEF1EC;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Container Details Text Style --------------------------------*/
+.container-details-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  margin-left: 9%;
+  margin-top: 17%;
+  color: #005C58;
+}
+
+.container-details-text h3 {
+  margin-bottom: 4%;
+}
+
+.container-details-text p {
+  letter-spacing: 0.5px;
+}
+
+/* Container Details Image Style --------------------------------*/
+.container-details-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  margin-bottom: 17%;
+}
+
+/* Container Pricing Style --------------------------------*/
+.container-pricing {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Container Pricing Header Style --------------------------------*/
+.container-pricing-header {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #005C58;
+  margin-top: 7%;
+}
+
+.container-pricing-header h3 {
+  font-size: 2em;
+  margin-bottom: 2%;
+}
+
+.container-pricing-header p {
+  margin-bottom: 5%;
+}
+/* Container Pricing Price Style --------------------------------*/
+.container-pricing-prices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.container-pricing-prices span {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  border: 1px solid lightgray;
+}
+
+.container-pricing-prices span h2 {
+  margin-bottom: 10%;
+  color: #68AF56;
+  text-transform: uppercase;
+}
+
+.container-pricing-prices span h3 {
+  color: #005C58;
+}
+
+.container-pricing-prices span ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20%;
+}
+
+.container-pricing-prices span ul li {
+  margin-top: 4%;
+  color: #80A7A4;
+}
+
+.container-pricing-prices span button {
+  width: 200px;
+  height: 50px;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  background-color: #80A7A4;
+}
+
+.container-pricing-prices span button:hover {
+  background-color: #68AF56;
+}
+
+/* Container Included Style --------------------------------*/
+.container-included {
+  width: 100%;
+  height: 400px;
+}
+
+/* Container Included Header Style --------------------------------*/
+.container-included-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;
+  color: #005C58;
+  font-size: 2em;
+}
+
+
+/* Container Included Content Style --------------------------------*/
+.container-included-content {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-included-content span {
+  color: #8BAEAC;
+  margin: auto 0;
+  width: 25%;
+}
+
+.container-included-content li {
+  padding: 7px;
+}
+
+.container-included-content li img {
+  width: 15px;
+  height: 15px;
+}
+
+/* Container Help Style --------------------------------*/
+.container-help {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+  margin-bottom: 10%;
+}
+
+.container-help h3 {
+  color: #68AF56;
+  font-size: 2em;
+  margin: 3% 0% 5% 0%;
+}
+
+.container-help h4 {
+  margin-top: 5%;
+}
+
+/* Container Download Style --------------------------------*/
+.container-download {
+  background: url("../img/downloadbg.png") no-repeat local center top;
+  height: 200px;
+  width: 100%;
+  display: flex;
+}
+/* Container Download Text Style --------------------------------*/
+.container-download-text {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  color: #8BAEAC;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: flex-start;
+  margin-left: 15%;
+}
+
+.container-download-text h3 {
+  color: #005C58;
+  margin-bottom: 2%;
+}
+
+/* Container Download Button Style --------------------------------*/
+.container-download-button {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: flex-end;
+  justify-content: center;
+  align-content: flex-end;
+  margin-right: 15%;
+}
+
+.container-download-button button {
+  background-color: #68AF56;
+  color: white;
+  width: 300px;
+  height: 70px;
+  border: none;
+}
+/* Footer Style */
+footer {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5%;
+  color: #93B4B2;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: #93B4B2;
+}
+
+footer ul li {
+  padding: 2% 0% 2% 0%;
+  font-size: 0.8em;
+}
+
+footer ul li input {
+  width: 300px;
+  height: 30px;
+  color: #93B4B2;
+  padding: 2px;
+}
